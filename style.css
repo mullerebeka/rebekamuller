@@ -1,0 +1,477 @@
+entry-page {
+    font-family: 'Raleway';
+    margin: 50;
+    padding: 0;
+    background-color: #1F3846;
+  }
+  #Showreel{
+    width: 260;
+    height: 115;
+  }
+  body {
+      font-family: 'Raleway';
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 0px;
+      margin-top: 0px;
+      padding: 0;
+    background-color: #C2C9CD;
+    font-size: 16x;
+  }
+  
+  header {
+      background-color: #1F3846;
+      color: #fff;
+      padding: 5px;
+      text-align: center;
+      height: fit-content;
+
+  }
+#NevemÍrottan {
+    font-family: "Allura";
+    color: #fff;
+  }
+  
+  nav ul {
+      list-style: none;
+  }
+  
+  nav ul li {
+      display: inline;
+      margin-right: 20px;
+  }
+  li{
+    margin-left: 20px;
+    text-align: justify;
+  }
+  
+  nav a {
+      text-decoration: none;
+      color: #C2C9CD;
+  }
+  nav a:hover {
+    color: #fff;
+}
+#LanguageSelector {
+  margin-right: 10px;
+  order: 2;
+  font-size: 12px;
+  color: #C2C9CD;
+  margin-right: -1000px;
+  margin-left: auto;
+}
+#LanguageSelector a {
+  color: #C2C9CD;
+  text-decoration: none;
+}
+#LanguageSelector a:hover{
+  color: #fff;
+}
+
+  .hero {
+      background-image: url('Welcome.png');
+      background-size:100%;
+      color: #fff;
+      text-align: center;
+      padding: 100px 50px;
+      height: 550px;
+      margin-right: 0px;
+
+  }
+  .content {
+      padding: 20px;
+  }
+section{
+  margin-right:20px;
+}
+/* Index  part                              */
+#Welcome {
+  font-family: 'Raleway';
+  text-align: center;
+  width: 400px;
+  height: 200 px;
+  margin-right: 20px;
+}
+#Welcome h1 {
+  font-family: 'Raleway';
+  font-size: 40px;
+  color:#C2C9CD;
+  font-weight:bold;
+  text-transform: uppercase;
+}
+#Welcome h3 {
+  font-family: 'Raleway';
+  font-size: 20px;
+  color:#C2C9CD;
+  border-bottom: 0;
+}
+ /* Contact me part */
+ #Contact {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  height: 1000px;
+  font-family: 'Raleway';
+ }
+ #Contact h2{
+  font-weight: bold;
+  color: #2c2828;
+  text-transform: uppercase;
+  font-family: 'Raleway';
+  border-bottom: 2px solid #1F3846
+}
+  #NameInputMező{
+    background-color: #1F3846;
+      color: #fff;
+      text-align: left;
+      bottom: 0;
+    height: 20px;
+      width: 400px;
+    border-radius: 5px;
+  text-align: left;
+  }
+  #SubjectInputMező{
+    background-color: #1F3846;
+      color: #fff;
+      text-align: left;
+      bottom: 0;
+    height: 20px;
+      width: 400px;
+    border-radius: 5px;
+  text-align: left;
+  }
+  #EmailInputMező{ 
+    background-color: #1F3846;
+    color: #fff;
+    text-align: left;
+    bottom: 0;
+  height: 20px;
+    width: 400px;
+  border-radius: 5px;
+text-align: left;
+}
+  #SzovegInputMező {
+        background-color: #1F3846;
+      color: #fff;
+      text-align: justify;
+      bottom: 0;
+    height: 200px;
+      width: 400px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+      text-align: top;
+  }
+  footer {
+      background-color: #1F3846;
+      color: #C2C9CD;
+      text-align: center;
+      padding: 5px;
+      position: fixed;
+      bottom: 0;
+      width: 96%;
+      height: fit-content;
+
+  }
+  #SendButton{
+    background-color: #1F3846;
+      color: #C2C9CD;
+         font-family: Raleway;  
+    display: inline-block;
+      padding: 5px 10px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+      font-size: 16px;
+  }
+  /*About me part                               */
+  aside {
+    width: 25%;
+    height: 1000px;
+    color: #1F3846;
+    background-color: #C2C9CD;
+    border-right: 2px solid #1F3846;
+    font-family: 'Raleway';
+    margin-left: 15 px;
+}
+#SecAboutMe {
+  width: 900px;
+  height: 1000px;
+  font-family: 'Raleway';
+  color: #1F3846;
+  margin-left: 350px;
+  margin-top: -950px;
+}
+#imageAboutMe {
+  background-image: url("aboutme.png");
+  background-size: 300px 316px;
+  height: 316px;
+  background-position: center;
+}
+h3,
+h4 {
+    font-family: 'Raleway';
+    text-transform: uppercase;
+}
+
+aside h3,
+aside h4 {
+    color: #1F3846;
+}
+
+aside h3 {
+    border-bottom: 2px solid #1F3846;
+;
+}
+
+aside h4 {
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+section h3 {
+    text-transform: uppercase;
+    color: #1F3846;
+    border-bottom: 2px solid #1F3846;
+    margin-right: 30px;
+}
+section h4 {
+  text-transform: uppercase;
+  color: #1F3846;
+}
+
+#contact-container,
+#experiences-container,
+#education-container,
+#workshop-container,
+#stage-container,
+#other-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+#contact-container {
+  display: flex;
+  justify-content: flex-start;
+}
+.job-left {
+  width: 400px;
+}
+.job-right {
+  width: 800px;
+}
+.school-left {
+    width: 400px;
+}
+.school-right {
+    width: 400px;
+}
+.post-name,
+.institution-name,
+.production-name,
+
+.teacher-name {
+    font-weight: bold;
+    color: #2c2828;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+.post-name {
+  text-transform: uppercase;
+}
+.production-name{
+  text-transform: uppercase;
+}
+
+.date,
+.role-name {
+    margin: 0;
+}
+.post-position {
+  margin: 0 0 30px 0;
+}
+
+/*Showreel part                               */
+  #Showreel{
+height:1000px;
+align-items: center;
+font-family: Raleway;
+font-size: 16px;
+color:#1A4789;
+font-weight: bold;
+
+  }
+  #Showreel h2{
+    font-weight: bold;
+    color: #2c2828;
+    text-transform: uppercase;
+    font-family: 'Raleway';
+    border-bottom: 2px solid #1F3846
+  }
+  /*                           Credits part                            */
+  .role-name{
+    color:#1A4789;
+  }
+  #experiences h2{
+    font-weight: bold;
+    color: #2c2828;
+    text-transform: uppercase;
+    font-family: 'Raleway';
+  }
+  #experiences {
+    height: 1000px;
+  }
+
+  /*                          Pictures part                              */
+  
+  #PictureHeader{  
+    background-color: #1F3846;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    position:fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; 
+    height: fit-content;
+}
+
+#PictureBody {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  display: flex;
+  align-items: center;
+  background-color: #C2C9CD;
+  height: 1600px;
+  width: 100%;
+}
+#PhotoCredit{
+  margin-left: -150px;
+  top: 0px;
+}
+
+#PictureMain {
+  width: 70% ;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content:space-around;
+    margin-left: 250px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    margin-top: -500px;
+}
+
+    div#picture {
+        width: 70%;
+        height: 1400px;
+        flex-basis: 80%;
+        box-shadow: 0 0 4px 4px #1F3846;
+        flex-grow: 4;
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+        overflow: hidden;
+    }
+
+    div.side {
+      background-color: #c2c9cd;
+      display: flex;
+      align-items: center;
+  }
+
+            button#leftButton, button#rightButton {
+                background-size: 100% 100%;
+                height: 40px;
+                width: 100px;
+                color:transparent;
+                background-color: transparent;
+                border: none;
+                outline: none;
+                padding: 0;
+                cursor: pointer;
+            }
+
+            button#leftButton {
+                background-image: url(./images/arrow.svg);
+            }
+
+            button#rightButton {
+                background-image: url(./images/arrow.svg);
+                transform: rotate(0.5turn);
+            }
+      
+
+            div#mainPict {
+              position: relative;
+              background-color: transparent;
+              color: transparent;
+          }
+
+        img#image {
+          width: 100%;
+          height: auto;
+      }
+
+
+
+
+    div#thumbs {
+        width: 100%;
+        height: 20%;
+        flex-basis: 20%;
+        flex-grow: 1;
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -150px;
+        /* gap: 10px; */
+    }
+
+        div.thumb {
+            width: 60px;
+            height: 60px;
+            margin: 5px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border: solid white 4px;
+            border-radius: 4px;
+            box-shadow: rgb(50, 50, 50) 0 4px 4px 0px;
+            cursor: pointer;
+            caret-color: transparent;
+            position: relative;
+        }
+
+        div.thumbActive {
+            width: 65px;
+            height: 65px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border: solid rgb(50, 50, 50) 3px;
+            border-radius: 3px;
+            box-shadow: rgb(30, 30, 30) 0 5px 8px 0px;
+            cursor: pointer;
+            caret-color: transparent;
+            position: relative;
+        }
+
+        div.tooltip {
+            display: none;
+            position: relative;
+            bottom: -70px;
+            background-color: transparent;
+            opacity: 0.5;
+            border-radius: 3px;
+            color: black;
+            font-size: small;
+            font-style: italic;
+            font-weight: bolder;
+        }
+
+        div.thumb:hover .tooltip {
+            display: block;
+        }
+
